@@ -1,0 +1,652 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Montserrat:wght@600;800&family=Open+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #079CFF;
+ 
+}
+
+/* *** Navbar section *** */
+#navsec {
+  width: 98vw;
+  position: absolute;
+  /* left: 25px; */
+  z-index: 5;
+}
+
+.logovideo {
+  width: 226px;
+  margin-left: 4vw;
+
+}
+
+/* Menubar  */
+.navbar-collapse ul {
+  margin-right: 14%;
+}
+
+.navbar-collapse ul li {
+  margin: 0 24px;
+}
+
+.navbar-collapse ul li a {
+  font-size: 20px;
+
+}
+
+.navbar-collapse ul li a:hover {
+  color: white;
+  
+}
+
+
+
+/* Bootstrap manupulate  */
+.navbar .navbar-expand {
+  padding: 0;
+}
+
+.navbar-collapse ul li a {
+  color: white;
+}
+
+.navboxres {
+  padding: 0 5%;
+}
+.navbar-nav{
+  --bs-nav-link-color: white;
+  --bs-nav-link-hover-color: rgb(255 255 255 );
+  --bs-nav-link-disabled-color: rgb(255 255 255);
+}
+
+
+/* Diagonal background black and skyblue  */
+
+.diagonalback {
+  width: 98vw;
+  height: 352vh;
+  background: black;
+  clip-path: polygon(0 0, 81% 0, 0 310vh);
+  position: absolute;
+  z-index: -5;
+  top: 20;
+}
+
+.diagonalbackmiddle{
+  width: 100%;
+  height: 352vh;
+  background: #079CFF;
+  clip-path: polygon(0 0, 80% 0, 0 309vh);
+  position: absolute;
+  z-index: -5;
+  top: 20;
+}
+
+.diagonalbackinner{
+  width: 100%;
+  height: 352vh;
+  background: black;
+  clip-path: polygon(0 0, 79% 0, 0 308vh);
+  position: absolute;
+  z-index: -5;
+  top: 20;
+
+}
+
+
+/* Main section starts  */
+#maincontent {
+  position: absolute;
+  width: 98vw;
+  top: 0;
+  margin-top: 150px;
+}
+
+/* Hero Section  */
+.herobox {
+  height: 500px;
+}
+
+/* left box of hero section  */
+.left-content-box {
+  padding-left: 5%;
+
+}
+
+.skillername {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 130px;
+}
+
+.quotes {
+  font-size: 30px;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+}
+
+.aboutskillers {
+  margin-top: 5%;
+  font-size: 21px;
+  line-height: 31px;
+  word-spacing: 3px;
+}
+
+.registerbutton button {
+  background-color: #079CFF;
+  cursor: pointer;
+  font-family: 'Hammersmith One', sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  height: 50px;
+  width: 200px;
+  border-radius: 30px;
+  box-shadow: 2px 2px 0 0 rgb(0, 0, 0), 4px 4px 0 0 #079CFF
+}
+
+/* Right side of the hero section image part  */
+
+.heroimage img {
+  width: 90%;
+  margin-top: -6%;
+}
+
+/* Second block Upskilling the Gen-z */
+
+#upskilling {
+  margin-top: 13%;
+  width: 100%;
+
+}
+
+.upskilltitle h1 {
+  color: #079CFF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 70px;
+  margin-left:10%;
+}
+
+.upskilltitle span {
+  margin-left: 40px;
+  color: black;
+}
+
+.Gen-Zbox {
+  margin-top: 8%;
+}
+
+.boyimage img {
+  margin-top: 6%;
+  width: 100%;
+}
+
+/* Gen z rignt size content box  */
+.contentGen-z {
+  margin-top: 6%;
+  text-align: right;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+/* Develop your skills with Skiller section  */
+
+#developyourskills {
+  margin-top: 10%;
+}
+
+.developskilltitle h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 60px;
+  padding: 0 25%;
+  color: black;
+}
+
+.developskilltitle span {
+  color: white;
+}
+
+.fourbox {
+  margin-top: 10%;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.fourbox>.col-md-3 {
+
+  margin: 0 20px;
+  height: 260px;
+  width: 260px;
+  background-color: #0991EB;
+  border-radius: 20px;
+}
+
+.iconsbox>img {
+  width: 280px;
+  margin-top: -30px;
+}
+
+.card {
+  background-color: #19467E;
+  width: 230px;
+  height: 65px;
+  margin: 0 auto;
+  margin-top: -20px;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.card h2 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  
+}
+
+.box1 > a{
+  list-style-type: none;
+  text-decoration: none;
+}
+.box2 > a{
+  list-style-type: none;
+  text-decoration: none;
+}
+.box3 > a{
+  list-style-type: none;
+  text-decoration: none;
+}
+.box4 > a{
+  list-style-type: none;
+  text-decoration: none;
+}
+
+/* Learning at skiller section  */
+
+#learningatskiller {
+  margin-top: 10%;
+}
+.learningskillerbox >*{
+  padding-right: 0px;
+}
+
+/* Left side learning at skillers with image */
+
+.lineimage{
+  margin-left: 50px;
+  margin-top: 150px;
+  width: 57%;
+}
+.textcontent{
+    position: relative;
+    left: 249px;
+    bottom: 682px;
+}
+
+.learningatskillertitle{
+  margin-bottom: 90px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+}
+.learningatskillertitle p{
+  padding-right: 43%;
+  margin: 0;
+}
+
+.learningatskillertitle span{
+  color: white;
+}
+
+.subtext1{
+  font-size: 25px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  padding-right: 56%;
+  margin: 57px 0;
+}
+
+
+
+
+/* Right side clipping box with AiImage  */
+
+.outerclipbox {
+  height: 230vh;
+  width: 100%;
+  background: black;
+  clip-path: ellipse(87% 50% at 99% 50%);
+}
+
+.box1black {
+  height: 229vh;
+  width: 100%;
+  background: #0991EB;
+  clip-path: ellipse(86% 50% at 99% 50%);
+}
+
+.box2black {
+  height: 228vh;
+  width: 100%;
+  background: black;
+  clip-path: ellipse(83% 49% at 99% 50%);
+}
+
+.aiimage img {
+  margin-top: 45%;
+  margin-left: 35%;
+  width: 60%;
+}
+
+
+/* We are backed by section  */
+
+
+#backedby {
+  margin-top: 10%;
+
+}
+
+.backedcontainerbox {
+  height: 470px;
+  width: 75%;
+  background-color: #0991EB;
+  border-radius: 20px;
+}
+
+.backedtitle h1 {
+  padding-top: 40px;
+  font-size: 85px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
+
+/* backed four boxes */
+
+.backedboxsection {
+  position: relative;
+  top: -200px;
+}
+
+.backedfourbox {
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.backedfourbox>.col-md-3 {
+  margin: 0 35px;
+  height: 286px;
+  width: 260px;
+  background-color: #0071BC;
+  border-radius: 20px;
+}
+
+.backed-iconowner h1 {
+  margin-top: 35px;
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 27px;
+  color: white;
+}
+
+
+.backedlogosection {
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  border-radius: 50%;
+  margin-top: 18%;
+}
+
+.backed-innercircle {
+  background-color: none;
+  border: 2px solid #0991EB;
+  height: 190px;
+  width: 190px;
+  border-radius: 50%;
+  margin: auto;
+
+}
+
+.backed-innercircle img {
+  margin-top: 10px;
+  width: 150px;
+}
+
+.mfleduclublogo {
+  margin-top: 80px;
+}
+
+/* Testimonials section Adore by student and valued by person  */
+
+
+.testimonialsectioncard {
+  height: 670px;
+  width: 85%;
+  background: #0991EB;
+  border-radius: 24px
+}
+
+/* heading test of testimonial  */
+.testimonial-textbox {
+  margin-top: 7%;
+}
+
+.testimonialheading h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 80px;
+  font-weight: 800;
+
+}
+
+.testimonialheading span {
+  color: white;
+}
+
+/* Circular icon box of testimonial  */
+.testimoniallowerbox {
+  margin-top: 100px;
+  background-color: #1B75BB;
+  height: 235px;
+  width: 100%;
+  border-radius: 26px;
+}
+
+.tesimonialcirclebox{
+  padding: 0  72px;
+}
+
+.circleframe{
+  justify-content: center;
+}
+
+.iconsimages {
+  background-color: white;
+  border-radius: 50%;
+  height: 145px;
+  width: 145px;
+  margin: 48px auto;
+}
+
+.iconsimages img {
+  height: 120px;
+  width: 120px;
+  margin-top: 7%;
+  margin-left: 8%;
+}
+
+
+/* Love and trust section, second  testimonal  */
+#loveandtrust{
+  margin-top: 10%;
+}
+
+.loveandtrustbox{
+  background-color: #0979BD;
+  height: 1500px;
+  width: 85%;
+  border-radius: 36px;
+}
+
+.lovetrustheading{
+  padding-top: 57px;
+}
+.lovetrustheading h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 68px;
+}
+.lovetrustheading h1:nth-child(1){
+  color: white;
+}
+.lovefluidbox{
+  padding: 0;
+}
+.lovecontentouterbox{
+  margin: 20px 0 0;
+}
+
+.lovecontentbox{
+  margin: 6% 12px 0;
+  width: 47%;
+  padding-right: 21px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+.lovecontentbox h3{
+  font-family: 'Hammersmith One', sans-seri
+}
+
+
+.hr{
+  border: none;
+  height: 3px;
+  background-color: black;
+  margin: 31px 0;
+}
+
+.starticons img{
+  width: 40%;
+  margin-right: 72px;
+}
+
+
+
+/* Why skillers section  */
+
+
+.whytitle h1{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: black;
+  font-size: 80px;
+}
+.outerboxofwhy{
+  position: relative;
+  /* top: -130px; */
+}
+
+.questionicon{
+  position: absolute;
+  bottom: 302px;
+}
+
+.questionicon img{
+  width: 400px;
+  margin-left: 200px;
+
+}
+
+
+.whycontentbox{
+  background-color: black;
+  width: 80%;
+  height: 450px;
+  border-radius: 40px;
+}
+
+.whyskillercontent{
+  margin-top: 8%;
+}
+.whyskillercontent h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-align: justify;
+  padding: 131px 20px 10px 20px;
+  font-size: 31px;
+  word-spacing: 3px;
+}
+
+
+/* Contact us section  */
+
+#contactus{
+  margin-top: 5%;
+}
+
+.headcontainer{
+  width: 100%;
+  padding: 0;
+}
+.headtext h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 80px;
+  color: black;
+
+}
+
+.contactvalues{
+  height: 550px;
+  width: 100%;
+  clip-path: ellipse(61% 91% at 51% 100%);
+  background-color: black;
+}
+.middleshapeborder{
+  height: 550px;
+  width: 100%;
+  clip-path: ellipse(60% 90% at 51% 100%);
+  background-color: #079CFF;
+}
+.innershape{
+  height: 550px;
+  width: 100%;
+  clip-path:ellipse(60% 89% at 51% 100%);
+  background-color: black;
+}
+
+.contactdetailsbox{
+  padding: 15% 20% 0;
+}
+
+.three-icon-field{
+  padding: 9px 0;
+}
+
+.contact-box-arrangement-res h3{
+  /* height: 20%; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+.contact-box-arrangement-res{
+  
+  height: 79px;
+  font-size: 15px;
+  line-height: 12px;
+}
+

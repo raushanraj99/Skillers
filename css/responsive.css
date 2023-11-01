@@ -1,0 +1,641 @@
+/* every class ends with res word for the responsiv if it is new for the class
+ */
+
+
+ @media only screen and (max-width: 620px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #079CFF;
+
+  }
+
+  /* Diagonal backgroun  */
+  .diagonalback {
+    width: 100%;
+    height: 352vh;
+    background: black;
+    clip-path: polygon(0 0, 81% 0, 0 89vh);
+    position: absolute;
+    z-index: -5;
+    top: 20;
+  }
+
+  .diagonalbackmiddle {
+    width: 100%;
+    height: 352vh;
+    background: #079CFF;
+    clip-path: polygon(0 0, 80% 0, 0 87vh);
+    position: absolute;
+    z-index: -5;
+    top: 20;
+  }
+
+  .diagonalbackinner {
+    width: 100%;
+    height: 352vh;
+    background: black;
+    clip-path: polygon(0 0, 79% 0, 0 86vh);
+    position: absolute;
+    z-index: -5;
+    top: 20;
+
+  }
+
+  /* navbar  */
+  .navbar{
+    margin-left: 7%;
+    --bs-navbar-nav-link-padding-x: 0.5rem;
+    --bs-navbar-toggler-padding-y: 0.25rem;
+    --bs-navbar-toggler-padding-x: 0.5rem;
+    --bs-navbar-toggler-font-size: 1.1rem;
+  }
+
+  .logovideo {
+    width: 110px;
+  }
+  .navbar-collapse ul{
+    margin-right: 0; 
+  }
+  .navbar-collapse ul li a {
+    font-size: 13px;
+    margin-left: -15px;
+  }
+
+  .navbar-brand {
+    margin-right: 32%;
+  }
+  .navbar-nav-scroll{
+    text-align: right;
+  }
+
+  /* Navbar section  */
+  #maincontent {
+    margin-top: 50px;
+  }
+
+  /* .herosection{
+        margin-top: 10px;
+    } */
+
+
+  .skillername {
+    font-size: 46px;
+    position: absolute;
+    top: 13px;
+    left: 12px;
+  }
+
+  .registerbutton {
+    position: absolute;
+    top: 45px;
+    left: 10px;
+  }
+
+  .registerbutton button {
+    width: 80px;
+    height: 25px;
+    font-size: 9px;
+    font-weight: bold;
+  }
+  
+
+  .heroimage {
+    position: absolute;
+    top: 150px;
+    left: 80px;
+  }
+
+  .heroimage img {
+    width: 88%;
+    margin-left: -26px;
+  }
+
+  .left-content-box {
+    margin-top: 100%;
+  }
+
+  .quotes {
+    word-spacing: 0px;
+    font-weight: bold;
+    color: black;
+    line-height: 18px;
+    font-size: 12px;
+    letter-spacing: 0px;
+    text-align: right;
+  }
+
+  .quotes p {
+    margin-top: 15px;
+    margin-bottom: -3rem;
+    padding: 0 2% 0 79px;
+  }
+
+  .aboutskillers {
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: right;
+    word-spacing: 1px;
+    padding-top: 4%;
+    padding-left: 17%;
+    width: 100%;
+   
+  }
+
+  .upskilltitle h1 {
+
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+
+  }
+
+  .upskilltitle span {
+    margin-left: 8px;
+    color: black;
+  }
+
+  .boyimage {
+    margin-top: 61px;
+    margin-left: 90px;
+    background-color: black;
+    height: 100px;
+    width: 74%;
+
+  }
+
+  .boyimage img {
+    position: relative;
+    top: -72px;
+    margin-top: 6%;
+    width: 66%;
+  }
+
+  .contentGen-z {
+    padding: 0 10px;
+    text-align: justify;
+    font-size: 10px;
+    font-weight: 700;
+
+  }
+
+  /* Develop your skills with Skiller section  */
+  /* .developskilltitle{
+        padding: 0;
+    } */
+  #developyourskills {
+    margin-top: 5%;
+    width: 103%;
+  }
+
+  .developskilltitle h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    background-color: #0991EB;
+    margin: 0 15px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: 800;
+    padding: 5px 0 0 0;
+    color: black;
+  }
+
+  .fourbox {
+    margin-top: 0;
+  }
+
+  .fourbox>.col-md-3 {
+    margin-top: 47px;
+    /* margin: l; */
+    height: 100px;
+    width: 100px;
+    background-color: #0991EB;
+    border-radius: 20px;
+
+  }
+
+  .iconsbox img {
+    width: 100px;
+    padding-top: 20px;
+  }
+
+  .card {
+    width: 80px;
+    height: 30px;
+    margin-top: -9px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .card h2 {
+    margin-top: 10%;
+    font-size: 13px;
+  }
+
+  /* Learning at Skillers  */
+
+  .learningskillerbox>* {
+    width: 50%;
+    height: 530px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .lineimage {
+    margin-left: 8px;
+    margin-top: 60px;
+    width: 70%;
+  }
+
+  .textcontent {
+    width: 120px;
+    position: relative;
+    left: 80px;
+    bottom: 291px;
+  }
+
+  .learningatskillertitle {
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .learningatskillertitle p {
+    padding-right: 0%;
+    margin: 0;
+  }
+
+  .learningatskillertitle span {
+    color: white;
+  }
+
+  .subtext1 {
+    font-size: 10px;
+    color: white;
+    padding-right: 5%;
+    margin: 30px 0;
+  }
+
+  .outerclipbox {
+    margin-top: 100px;
+    height: 55vh;
+    width: 100%;
+    background: black;
+    clip-path: ellipse(87% 49% at 99% 50%);
+  }
+
+  .box1black {
+    height: 55vh;
+    width: 100%;
+    background: #0991EB;
+    clip-path: ellipse(86% 48% at 99% 50%);
+  }
+
+  .box2black {
+    height: 54vh;
+    width: 100%;
+    background: black;
+    clip-path: ellipse(83% 47% at 98% 51%);
+
+  }
+
+  .aiimage img {
+    margin-top: 59%;
+    margin-left: 23%;
+    width: 63%;
+  }
+
+
+  /* We are backed by section  */
+
+  #backedby {
+    width: 100%;
+
+  }
+
+  .backedcontainerbox {
+    height: 70px;
+    width: 270px;
+    margin-left: 0;
+    border-radius: 0 10px 10px 0;
+
+  }
+
+
+  .backedtitle h1 {
+    padding-top: 20px;
+    font-size: 25px;
+    word-spacing: 1px;
+  }
+
+  .backedboxsection {
+    position: relative;
+    top: 35px;
+    width: 103%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .backedfourbox>.col-sm-3 {
+    margin: 12px 16px;
+    height: 19vw;
+    width: 34vw;
+    background-color: #0071BC;
+    border-radius: 9px;
+    padding-left: 5px;
+  }
+
+
+
+  .backed-iconowner h1 {
+    font-size: 10px;
+    margin-left: 37px;
+    margin-top: 14px;
+    text-align: left;
+  }
+
+
+  .backedlogosection {
+    height: 19vw;
+    width: 19vw;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    top: -50px;
+    right: 54px;
+
+  }
+
+  .backed-innercircle {
+    background-color: none;
+    border: 2px solid #0991EB;
+    height: 18vw;
+    width: 18vw;
+    border-radius: 50%;
+    margin: auto;
+
+  }
+
+  .backed-innercircle img {
+    margin-top: 3px;
+    width: 15vw;
+  }
+
+  .backed-iconowner h1 {
+    font-size: 10px;
+    margin-left: 44px;
+    margin-top: 16px;
+    text-align: left;
+  }
+
+  .mfleduclublogo {
+    margin-top: 23px;
+  }
+
+  /* Testimonial section ie. Adore by Students and valued by person  */
+  #testimonials {
+    margin-top: 25%;
+    width: 103%;
+  }
+
+  .testimonialsectioncard {
+    height: 190px;
+    width: 88%;
+    background: #0991EB;
+    border-radius: 20px;
+  }
+
+  /* heading test of testimonial  */
+  .testimonial-textbox {
+    margin-top: 15px;
+    margin-left: 8px;
+  }
+
+  .testimonialheading h1 {
+    font-size: 20px;
+    font-weight: 800;
+
+  }
+
+  .testimonialheading span {
+    color: white;
+  }
+
+  /* Circular icon box of testimonial  */
+  .testimoniallowerbox {
+    margin-top: 23px;
+    background-color: #1B75BB;
+    height: 75px;
+    width: 100%;
+    border-radius: 19px;
+  }
+
+  .tesimonialcirclebox {
+    padding: 0 4dvi;
+  }
+
+  .circleframe {
+    justify-content: center;
+    width: 25%;
+    padding: 0;
+  }
+
+  .iconsimages {
+    background-color: white;
+    border-radius: 50%;
+    height: 41px;
+    width: 41px;
+    margin: 17px auto;
+    ;
+  }
+
+  .iconsimages img {
+    height: 35px;
+    width: 35px;
+    margin-top: 7%;
+  }
+
+
+
+  /* Love and trust section, second  testimonal  */
+  #loveandtrust {
+    margin-top: 10%;
+    width: 103%;
+  }
+
+  .loveandtrustbox {
+    background-color: #0979BD;
+    height: 500px;
+    width: 90%;
+    border-radius: 15px;
+  }
+
+  .lovetrustheading {
+    padding-top: 30px;
+    padding-left: 10px;
+  }
+
+  .lovetrustheading h1 {
+    font-weight: 800;
+    font-size: 20px;
+  }
+
+  .lovetrustheading h1:nth-child(1) {
+    color: white;
+  }
+
+  .lovefluidbox {
+    padding: 0;
+  }
+
+  .lovecontentouterbox {
+    margin: 20px 0 0;
+  }
+
+  .lovecontentbox {
+    margin: 0 12px 0;
+    width: 40%;
+    padding-right: 0;
+    color: white;
+    font-size: 7px;
+  }
+
+  .lovecontentbox h3 {
+    font-size: 8px;
+  }
+
+  .hr {
+    border: none;
+    height: 3px;
+    background-color: black;
+    margin: 21px 0;
+  }
+
+  .starticons img {
+    width: 32%;
+    margin-right: 35px;
+  }
+
+
+/* Why skillers section  */
+
+#whyskiller{
+  width: 103%;
+}
+
+  .whytitle h1 {
+    margin-top: 17%;
+    margin-bottom: 16%;
+    color: black;
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+
+  .questionicon {
+    position: absolute;
+    bottom: 142px;
+  }
+
+  .questionicon img {
+    width: 94px;
+    margin-left: 31px;
+  }
+
+
+  .whycontentbox {
+    background-color: black;
+    width: 90%;
+    height: 180px;
+    border-radius: 13px;
+  }
+
+  .whyskillercontent h3 {
+    text-align: justify;
+    padding: 45px 20px 10px 20px;
+    font-size: 10px;
+    word-spacing: 3px;
+  }
+
+/* Contact us section  */
+
+#contactus{
+  margin-top: 10%;
+  width: 103%;
+}
+
+.headcontainer{
+  width: 100%;
+  padding: 0;
+
+}
+.headtext h1{
+  font-weight: 800;
+  font-size: 40px;
+  color: black;
+
+}
+
+.contactvalues{
+  margin-left: 0x;
+  height: 260px;
+  width: 100%;
+  clip-path: ellipse(91% 84% at 48% 99%);
+  background-color: black;
+}
+.middleshapeborder{
+  height: 258px;
+  width: 100%;
+  clip-path: ellipse(92% 83% at 48% 101%);
+  background-color: #079CFF;
+}
+.innershape{
+  height: 262px;
+  width: 100%;
+  clip-path: ellipse(91% 81% at 48% 100%);
+  background-color: black;
+}
+
+.contactdetails{
+  margin-top: 15%;
+  margin-left: 2px;
+}
+
+.contactdetailsbox{
+  padding: 15% 11% 0;
+}
+.contactboxarrangement-res{
+  width: 50%;
+  padding: 0;
+
+}
+
+.contact-box-arrangement-res h3{
+  /* height: 20%; */
+  padding-bottom: 2px;
+ font-size: 9px;
+}
+.contact-box-arrangement-res {
+  
+  height: 79px;
+  font-size: 9px;
+  line-height: 0;
+}
+.social-icons{
+  padding: 5px 2px 2px 2px;
+}
+.three-icon-field{
+  padding: 4px 0;
+}
+.icon-common{
+  font-size: 8px;
+}
+
+}
